@@ -39,6 +39,9 @@ MusicUtil = require "musicutil"
 options = {}
 options.OUT = {"audio", "midi", "audio + midi", "crow out 1+2", "crow ii JF", "crow ii 301"}
 
+local grid = include("midigrid/lib/mg_128")
+-- local grid = include("midigrid/lib/mg_256")
+-- local grid = include("midigrid/lib/midigrid")
 g = grid.connect()
 
 alt = false
